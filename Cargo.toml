@@ -1,0 +1,18 @@
+[package]
+authors = ["Cute_Wisp <sweatpotato13@gmail.com>"]
+name = "actix-boilerplate"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix = "0.13"
+actix-web = "4.0"
+r2d2 = "0.8.9"
+serde = "1.0.152"
+serde_derive = "1.0.152"
+serde_json = "1.0.93"
+actix-rt = "2.8.0"
+config = "0.13.1"
+lazy_static = "1.4.0"
+diesel = { version = "2.0.3", features = ["postgres", "r2d2"] }
+
